@@ -79,7 +79,7 @@ while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
 coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
 }
 popup.setLngLat(coordinates).setHTML(
-    "<h1>"+title+"</h1>"+" <p1>"+description+"</p2>"+"<p><img src='calender4.png' alt='calendar'> "+start+"</p><p><img src='location3.png' alt='location'> "+location+"</p>"
+    "<h1>"+title+"</h1>"+" <p1>"+description+"</p2>"+"<p><img src='calendar4.png' alt='calendar'> "+start+"</p><p><img src='location3.png' alt='location'> "+location+"</p>"
     ).addTo(map);
 
 });
